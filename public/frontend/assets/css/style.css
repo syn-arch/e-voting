@@ -1,0 +1,101 @@
+* {
+ 	font-family: poppins;
+ }
+
+ .scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+ .sign-button {
+ 	border-radius: 50px;
+ }
+
+ .header {
+ 	height: 100%;
+ 	width: 100%;
+ 	background: url(../img/2.jpg) 50% 50%;
+	background-size: cover;
+	background-position: center;
+ 	background-attachment: fixed;
+ }
+
+ .gradient {
+ 	height: 100%;
+ 	width: 100%;
+ 	background-image: linear-gradient(to right,#6a3093e8, #a044ffd4);
+ }
+
+ .h5 {
+ 	height: 5vh;
+ 	position: relative;
+ }
+
+ .h10 {
+ 	height: 10vh;
+ 	position: relative;
+ }
+
+ .h20 {
+ 	height: 20vh;
+ 	position: relative;
+ }
+
+ .btn-subs {
+ 	background-image: linear-gradient(to right, #6a3093, #a044ff);
+ 	color: white;
+ }
+
+ .about, .petunjuk {
+ 	background: #eaeaea;
+ }
+
+ .about-us, .contact-us {
+ 	color: #856cc5;
+ }
+
+ .copyright{
+ 	background:#202225;
+ 	color: white;
+ }
+
+.bg-login{
+	height: 100%;
+ 	width: 100%;
+ 	background: url(../img/1.jpg) 50% 50%;
+	background-size: cover;
+	background-position: center;
+ 	background-attachment: fixed;
+}
+
+.copy-login {
+	transform: translateY(40px);
+}
+
+.main-header{
+	height: 100%;
+	widows: 100%;
+	background: url(../img/header.jpg) 50% 50%;
+	background-size: cover;
+}
+
+.min-2 {
+	transform: translateY(-20px);
+}
+
+.min-3 {
+	transform: translateY(-30px) !important;
+}
+
+.container-petunjuk {
+	background: #fff;
+}
+
+.footer-main {
+	height: 70px;
+	line-height: 70px;
+}
+
+.invert {
+	filter:  invert(100);
+}
